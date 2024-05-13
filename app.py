@@ -5,7 +5,7 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain_community.llms import OpenAI
 from dotenv import load_dotenv
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.text_splitter import CharacterTextSplitter
+from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_community.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
