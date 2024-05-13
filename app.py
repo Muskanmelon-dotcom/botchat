@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from PyPDF2 import PdfReader
-from docx import python_docx
+from docx import Documents
 from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
 from dotenv import load_dotenv
