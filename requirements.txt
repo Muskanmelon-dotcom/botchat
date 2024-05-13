@@ -9,6 +9,7 @@ APScheduler==3.10.4
 astunparse==1.6.3
 attrs==23.2.0
 beautifulsoup4==4.12.3
+faiss-cpu==1.7.4
 blinker==1.7.0
 cachetools==5.3.3
 certifi==2024.2.2
